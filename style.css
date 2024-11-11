@@ -1,7 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Londrina+Sketch&family=Pacifico&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
+  background: #deb1d0;
 }
 canvas {
   display: block;
+  margin: auto;
+}
+
+h1{
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #544c52;
+}
+
+#button-holder {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #544c52;
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+}
+
+p{
+  color: #544c52;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
